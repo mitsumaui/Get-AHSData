@@ -10,7 +10,7 @@ Get-AHSData
 
 Examples:
 
-$Credential = Get-Credential -Message 'iLO Credentials'
-$Files = Get-AHSData -Server 'server-ilo.local' -Credential $Credential -Folder C:\Temp 
+    $Credential = Get-Credential -Message 'iLO Credentials'
+    $Files = Get-AHSData -Server 'server-ilo.local' -Credential $Credential -Folder C:\Temp 
 
-$Files = Get-AHSData -Server 'server-ilo.local' -Credential $Credential -Folder C:\Temp -StartDate '02/10/18'
+    $Files = Get-AHSData -Server 'server-ilo.local' -Credential $Credential -Folder C:\Temp -StartDate '02/10/18'
